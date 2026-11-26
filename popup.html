@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Goto Button</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">页面导航</h1>
+    <button id="btn-top" class="btn">
+      <span class="icon-wrapper">
+        <svg class="icon" viewBox="0 0 24 24">
+          <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+      </span>
+      <span class="text">返回顶部</span>
+    </button>
+    <button id="btn-middle" class="btn">
+      <span class="icon-wrapper">
+        <svg class="icon" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M12 5v2M12 17v2M5 12h2M17 12h2"/>
+        </svg>
+      </span>
+      <span class="text">页面中部</span>
+    </button>
+    <button id="btn-bottom" class="btn">
+      <span class="icon-wrapper">
+        <svg class="icon" viewBox="0 0 24 24">
+          <path d="M12 5v14M5 12l7 7 7-7"/>
+        </svg>
+      </span>
+      <span class="text">返回底部</span>
+    </button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
